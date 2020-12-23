@@ -47,7 +47,7 @@ public class StudyTestController {
     @GetMapping("/api/rabbitmqtest")
     public void  rabbitmqtest(){
         // 天王盖地虎
-        msgProducer.send2TEst("123456465");
+        msgProducer.sendnewgit("123456465");
     }
 
 }
