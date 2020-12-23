@@ -46,6 +46,7 @@ public class StudyTestController {
     private MsgProducer msgProducer;
     @GetMapping("/api/rabbitmqtest")
     public void  rabbitmqtest(){
+        // 天王盖地虎
         msgProducer.send2FanoutTestQueue("123456465");
     }
 
